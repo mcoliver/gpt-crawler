@@ -24,7 +24,8 @@
     "prettier": "^3.1.0",
     "semantic-release": "^22.0.8",
     "ts-node": "^10.8.0",
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "husky": "^8.0.0"
   },
   "scripts": {
     "semantic-release": "semantic-release",
@@ -36,7 +37,8 @@
     "test": "echo \"No test specified, please create tests.\" && exit 0",
     "build": "tsc",
     "fmt": "prettier --write .",
-    "prettier:check": "prettier --check ."
+    "prettier:check": "prettier --check .",
+    "prepare": "husky install"
   },
   "author": "It's not you it's me",
   "license": "ISC"
